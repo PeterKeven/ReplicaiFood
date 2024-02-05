@@ -7,6 +7,16 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'open sans', helvetica, sans-serif;
+
+}
+
+
+
 /* Layout */
 .Flex {
 
@@ -16,26 +26,102 @@
 
 }
 
+/* PC */
+@media (min-width: 1200px) {
 
+    .container {
 
-header {
+        max-width: 1140px;
 
-    background-color: #f4f4f4;;
-    padding: 40px 32px;
+    }
 
-}
+    header {
 
-#logo img {
+        background-color: #f4f4f4;;
+        padding: 45px 62px;
+        font-weight: 700;
+        position: fixed;
+        width: 100%;    
+        
+    }  
 
-    height: 50px;
-    width: 100px;
+    
+    header a {
 
-}
+        font-size: 0.90em;
 
-nav ul li {
+    }
 
-    list-style: none;
-    float: left;
-    margin-left: 40px;
+    #logo img {
 
+        height: 45px;
+        width: 87px;
+
+    }
+
+    
+    nav ul li {
+    
+        position: static;
+        list-style: none;
+        float: left;
+        margin-left: 40px;
+    
+    }
+
+    nav ul li a {
+
+        text-decoration: none;
+        color: #343434  ;
+
+    }
+
+    main {
+
+        height: 100vh;
+        background: url(img/Banner.png);
+        background-position: center +69px;
+        background-size: 100% auto;
+        padding: 56px 0px 136px;
+        background-repeat: no-repeat;
+        
+
+    }
+
+    .conta ul li a{
+
+        color: #f00;
+
+    }
+
+    .entrar ul li a {
+
+        color: #fff;
+        background-color: #ea1d2c;
+        padding: 14px 30px;
+        border-radius: 10%;
+
+    }
+
+    .entrar ul li a:hover {
+
+        background-color: #FF6E70;
+
+    }
+
+    .conta {
+
+        margin-left: 880px;
+
+    }
+
+    .entrar {
+
+        position: absolute;
+        margin-left: 1000px;
+        top: 60px;
+
+    }
+
+    
 }
