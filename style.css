@@ -47,6 +47,14 @@ body {
 
 }
 
+.Flex5 {
+
+    display: flex;
+    margin-left: 30px;
+    
+
+}
+
 /* PC */
 @media (min-width: 1200px) {
 
@@ -507,6 +515,7 @@ body {
 
         padding: 60px 0px 32px 0px;
         border-top: 2px solid #f2f2f2;
+        width: 1280px;
 
     }
 
@@ -880,6 +889,249 @@ body {
     #outback {
 
         margin-left: 12px;
+
+    }
+
+    #mcdonalds:hover{
+
+        transition: 0.35s ease-in-out;
+        border-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    #cocobambu:hover{
+
+        transition: 0.35s ease-in-out;
+        border-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    #chinainbox:hover{
+
+        transition: 0.35s ease-in-out;
+        border-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    #habibs:hover{
+
+        transition: 0.35s ease-in-out;
+        border-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    #outback:hover{
+
+        transition: 0.35s ease-in-out;
+        border-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    #pratos {
+
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    .mercados {
+
+        padding: 70px 0px 50px 0px;
+
+    }
+
+    #mercadotexto{
+
+        margin-left: 30px;
+        padding: 60px 0px 32px 0px;
+        border-top: 2px solid #f2f2f2;
+
+    }
+
+    .melhoresmercados {
+
+        margin-left: 30px;
+
+    }
+
+
+
+
+
+
+    #diasupermercado {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #diasupermercado a {
+
+        text-decoration: none;
+
+    }
+
+    #diasupermercadoimg img {
+
+        height: 55px;
+        border-radius: 50%;
+
+    }
+
+    #diasupermercadoimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #diasupermercadoimg p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #diasupermercadoimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 40px;
+       
+
+    }
+
+    #diasupermercadotexto {
+
+        margin-left: 10px;
+
+    }
+
+    #diasupermercadotexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #big {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    #big a {
+
+        text-decoration: none;
+
+    }
+
+    #bigimg img {
+
+        height: 55px;
+        border-radius: 50%;
+
+    }
+
+    #bigimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #big p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #bigimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 40px;
+       
+
+    }
+
+    #bigtexto {
+
+        margin-left: 10px;
+
+    }
+
+    #bigtexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #eataly {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #eataly a {
+
+        text-decoration: none;
+
+    }
+
+    #eatalyimg img {
+
+        height: 55px;
+        border-radius: 50%;
+
+    }
+
+    #eatalyimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #eataly p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #eatalyimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+        margin-top: 40px;
+       
+
+    }
+
+    #eatalytexto {
+
+        margin-left: 10px;
+
+    }
+
+    #eatalytexto h3{
+
+        margin-bottom: 5px;
 
     }
 
