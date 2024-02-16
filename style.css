@@ -41,6 +41,12 @@ body {
 
 }
 
+.Flex4 {
+
+    display: flex;
+
+}
+
 /* PC */
 @media (min-width: 1200px) {
 
@@ -259,6 +265,7 @@ body {
         margin-left: 20px;
 
 
+
     }
 
     #setor01img span {
@@ -441,11 +448,439 @@ body {
 
     }
 
-    .Setores02 {
+    #Setor01:hover {
 
-        margin-top: 70px;
+        padding: 4px 4px 4px 4px;
+        transition: all .2s cubic-bezier(0,0,.5,1);
+        transition: .5s ease;
 
     }
 
+    #Setor02:hover {
+
+        padding: 4px 4px 4px 4px;
+        transition: all .2s cubic-bezier(0,0,.5,1);
+        transition: .5s ease;
+
+    }
+    
+    #Setor03:hover {
+
+        padding: 4px 4px 4px 4px;
+        transition: all .2s cubic-bezier(0,0,.5,1);
+        transition: .5s ease;
+
+    }
+    
+    #Setor04:hover {
+
+        padding: 4px 4px 4px 4px;
+        transition: all .2s cubic-bezier(0,0,.5,1);
+        transition: .5s ease;
+
+    }
+    
+    #Setor05:hover {
+
+        padding: 4px 4px 4px 4px;
+        transition: all .2s cubic-bezier(0,0,.5,1);
+        transition: .5s ease;
+
+    }
+
+
+    .Setores02 {
+
+        margin-top: 70px;
+        padding-bottom: 50px;
+
+    }
+
+    .restaurantes {
+
+        padding: 70px 0px 50px 0px;
+        margin-left: 30px;
+
+    }
+
+    #restaurantestexto {
+
+        padding: 60px 0px 32px 0px;
+        border-top: 2px solid #f2f2f2;
+
+    }
+
+    #mcdonalds {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #mcdonalds a {
+
+        text-decoration: none;
+
+    }
+
+    #mcdonaldsimg img {
+
+        height: 64px;
+
+    }
+
+    #mcdonaldsimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #mcdonaldsimg p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #mcdonaldsimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+
+    }
+
+    #mcdonaldsimgtexto {
+
+        margin-left: 10px;
+
+    }
+
+    #mcdonaldsimgtexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #estrela01 {
+
+        margin: 10px 0px 0px 225px;
+        font-size: 0.6em;
+        color: #fff;
+        background-color: orangered;
+        width: 15px;
+        text-align: center;
+        border-radius: 50%;
+
+    }
+    
+    #cocobambu {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #cocobambu a {
+
+        text-decoration: none;
+
+    }
+
+    #cocobambuimg img {
+
+        height: 64px;
+        border-radius: 50%;
+
+    }
+
+    #cocobambuimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #cocobambuimg p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #cocobambuimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+
+    }
+
+    #cocobambuimgtexto {
+
+        margin-left: 10px;
+
+    }
+
+    #cocobambuimgtexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #estrela02 {
+
+        margin: 10px 0px 0px 225px;
+        font-size: 0.6em;
+        color: #fff;
+        background-color: orangered;
+        width: 15px;
+        text-align: center;
+        border-radius: 50%;
+
+    }
+
+    #chinainbox {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #chinainbox a {
+
+        text-decoration: none;
+
+    }
+
+    #chinainboximg img {
+
+        height: 64px;
+        border-radius: 50%;
+
+    }
+
+    #chinainboximg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #chinainboximg p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #chinainboximg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+
+    }
+
+    #chinainboxtexto {
+
+        margin-left: 10px;
+
+    }
+
+    #chinainboxtexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #estrela03 {
+
+        margin: 10px 0px 0px 225px;
+        font-size: 0.6em;
+        color: #fff;
+        background-color: orangered;
+        width: 15px;
+        text-align: center;
+        border-radius: 50%;
+
+    }
+
+    #habibs {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #habibs a {
+
+        text-decoration: none;
+
+    }
+
+    #habibsimg img {
+
+        height: 64px;
+        border-radius: 50%;
+
+    }
+
+    #habibsimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #habibs p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #habibsimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+
+    }
+
+    #habibstexto {
+
+        margin-left: 10px;
+
+    }
+
+    #habibstexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #estrela04 {
+
+        margin: 10px 0px 0px 225px;
+        font-size: 0.6em;
+        color: #fff;
+        background-color: orangered;
+        width: 15px;
+        text-align: center;
+        border-radius: 50%;
+
+    }
+
+    #outback {
+
+        border: 1px solid #dcdcdc; 
+        height: 132px;
+        width: 250px;
+        border-radius: 8px;
+
+    }
+
+    #outback a {
+
+        text-decoration: none;
+
+    }
+
+    #outbackimg img {
+
+        height: 64px;
+        border-radius: 50%;
+
+    }
+
+    #outbackimg h3 {
+
+        font-size: 0.875rem;
+        color: #1a1a1a;
+
+    }
+
+    #outback p {
+
+        font-size: 0.75rem;
+        color: #717171;
+
+    }
+
+    #outbackimg {
+
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+        margin-top: 10px;
+       
+
+    }
+
+    #outbacktexto {
+
+        margin-left: 10px;
+
+    }
+
+    #outbacktexto h3{
+
+        margin-bottom: 5px;
+
+    }
+
+    #estrela05 {
+
+        margin: 10px 0px 0px 225px;
+        font-size: 0.6em;
+        color: #fff;
+        background-color: orangered;
+        width: 15px;
+        text-align: center;
+        border-radius: 50%;
+
+    }
+
+    #cocobambu {
+
+        margin-left: 12px;
+
+    }
+
+    #chinainbox {
+
+        margin-left: 12px;
+
+    }
+
+    #habibs {
+
+        margin-left: 12px;
+
+    }
+
+    #outback {
+
+        margin-left: 12px;
+
+    }
 
 }
